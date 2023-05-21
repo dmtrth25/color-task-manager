@@ -1,0 +1,41 @@
+.add-list {
+  &__form {
+    width: 235px;
+    height: 148px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 18px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+
+    .button {
+      width: 100%;
+      margin-top: 17px;
+    }
+
+    &-close {
+      position: absolute;
+      right: -9px;
+      top: -9px;
+      cursor: pointer;
+    }
+    
+    &-colors {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 12px;
+      .badge {
+        height: 16px;
+        width: 16px;
+        cursor: pointer;
+        border: 2px solid transparent;
+
+        &.active {
+          border: 2px solid #525252;
+        }
+      }
+    }
+  }
+}

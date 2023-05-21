@@ -1,0 +1,169 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Frontend",
+      "colorId": 4
+    },
+    {
+      "id": 2,
+      "name": "Backend",
+      "colorId": 5
+    },
+    {
+      "id": 3,
+      "name": "PC",
+      "colorId": 2
+    },
+    {
+      "id": 4,
+      "name": "Personal",
+      "colorId": 3
+    },
+    {
+      "id": 5,
+      "name": "Sport",
+      "colorId": 1
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 1,
+      "text": "Task1",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "listId": 1,
+      "text": "Task2",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "listId": 1,
+      "text": "Task3",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "text": "Task1",
+      "completed": false
+    },
+    {
+      "listId": 1,
+      "text": "Task4",
+      "completed": false,
+      "id": 18
+    },
+    {
+      "listId": 2,
+      "text": "Task2",
+      "completed": true,
+      "id": 19
+    },
+    {
+      "listId": 2,
+      "text": "Task3",
+      "completed": true,
+      "id": 20
+    },
+    {
+      "listId": 3,
+      "text": "Task 1",
+      "completed": true,
+      "id": 21
+    },
+    {
+      "listId": 4,
+      "text": "Task 1",
+      "completed": true,
+      "id": 22
+    },
+    {
+      "listId": 4,
+      "text": "Task 2",
+      "completed": false,
+      "id": 23
+    },
+    {
+      "listId": 4,
+      "text": "Task 3",
+      "completed": true,
+      "id": 24
+    },
+    {
+      "listId": 4,
+      "text": "Task 4",
+      "completed": true,
+      "id": 25
+    },
+    {
+      "listId": 4,
+      "text": "Task 5",
+      "completed": false,
+      "id": 26
+    },
+    {
+      "listId": 5,
+      "text": "Task 1",
+      "completed": true,
+      "id": 27
+    },
+    {
+      "listId": 5,
+      "text": "Task 2",
+      "completed": true,
+      "id": 28
+    },
+    {
+      "listId": 5,
+      "text": "Task 3",
+      "completed": true,
+      "id": 29
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C8D2D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#43B683",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#65C5ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBCCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B5E4BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C445F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110143",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6565",
+      "name": "red"
+    }
+  ]
+}
